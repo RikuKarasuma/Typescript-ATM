@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>ATM</title>
+		<link rel='stylesheet' href='design.css'/>
+	</head>
+	<body>
+
+		<div id='atm'>
+			<div id='logo'></div>
+			<div id='atm-container'>
+				<div id='terminal'>
+					<div id='terminal-message'>Pin:</div>
+				</div>
+				<div id='lower-container'>
+					<div id='terminal-keypad'>
+						<button class='keypad-key' onclick="inputManager('1')">1</button>
+						<button class='keypad-key' onclick="inputManager('2')">2</button>
+						<button class='keypad-key' onclick="inputManager('3')">3</button>
+
+						<button class='keypad-key' onclick="inputManager('4')">4</button>
+						<button class='keypad-key' onclick="inputManager('5')">5</button>
+						<button class='keypad-key' onclick="inputManager('6')">6</button>
+
+						<button class='keypad-key' onclick="inputManager('7')">7</button>
+						<button class='keypad-key' onclick="inputManager('8')">8</button>
+						<button class='keypad-key' onclick="inputManager('9')">9</button>
+
+						<button class='keypad-key' onclick="digitRemover()">Del</button>
+						<button class='keypad-key' onclick="inputManager('0')">0</button>
+						<button class='keypad-key' onclick="attemptUserInput()">Ent</span>
+					</div>
+					<div id='stats'>
+
+						<p id='twenty-notes'>£20 notes:  </p>
+						<p id='ten-notes'>£10 notes:  </p>
+						<p id='five-notes'>£5 notes:   </p>
+						<p id='total'>Total:   </p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="src/driver.js"></script>
+	</body>
+
+</html>

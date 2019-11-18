@@ -1,0 +1,96 @@
+body
+{
+    background-image: url('wall.jpg');
+}
+
+#logo
+{
+    margin: 25px auto 50px auto;
+    width: 150px;
+    height: 29px;
+    background-image: url('hsbc_small.png');
+}
+
+#atm
+{
+    background-image: linear-gradient(to bottom right, grey , #46494c);
+    width: 650px;
+    height: 600px;
+    margin: 50px auto 0 auto;
+    border: 10px;
+    border-style: ridge;
+}
+
+#atm-container
+{    
+    margin: -40px auto auto auto;
+    border: .4px outset;
+    width: 585px;
+    height: 500px;
+}
+
+#terminal
+{
+    background-color: black;
+    width: 500px;
+    height: 220px;
+    margin: 15px auto 0 auto;
+    border: .5px inset white;
+}
+
+#terminal-message
+{
+    font-size: 15px;
+    margin: 0 auto 0 auto;
+    padding-top: 20%;
+    text-align: center;
+    color: green;
+}
+
+#lower-container
+{
+    display: flex;
+}
+
+#terminal-keypad
+{
+    margin-left: 42px;
+    margin-top: 25px;
+    border: .5px inset white;
+    width: 200px;
+    height: 200px;
+}
+
+.keypad-key
+{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    border: .5px outset white;
+    background-color: grey;
+    text-align: center;
+    outline: none;
+}
+
+.keypad-key:hover
+{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    border: .5px solid tomato;
+    background-color: grey;
+    color: red;
+    text-align: center;
+    outline: none;
+}
+
+#stats
+{
+    display: inline-block;
+    margin-left: 165px;
+    margin-top: 70px;
+}
